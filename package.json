@@ -1,0 +1,28 @@
+{
+  "name": "jsconstructorhangman",
+  "version": "1.0.0",
+  "description": "CLI for Hangman",
+  "main": "hangman.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kmasteller/jsContructorHangman.git"
+  },
+  "keywords": [
+    "Hangman",
+    "CLI",
+    "Contructor"
+  ],
+  "author": "Kenneth Masteller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kmasteller/jsContructorHangman/issues"
+  },
+  "homepage": "https://github.com/Kmasteller/jsContructorHangman#readme",
+  "dependencies": {
+    "inquirer": "^4.0.1",
+    "prompt": "^1.0.0"
+  }
+}
