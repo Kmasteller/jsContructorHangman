@@ -25,7 +25,7 @@ function checkWordGuess(wordForGame){
 		//console.log(true);
 		return true
 	}else{
-		console.log("Keep 'em guesses coming!")
+		console.log("Keep guessing!")
 		//question();
 		return false
 
@@ -42,7 +42,7 @@ function question(){
 inquirer.prompt([{
 		type: "input",
 		name: "modeSelect",
-		message: "Guess a Letter! Guess the right word and you'll win a prize!!!",
+		message: "Guess a Letter! Guess the right word and you win!",
 	}]).then( function (response) {
 			
 			//ask the user to guess a letter
