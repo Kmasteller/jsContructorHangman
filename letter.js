@@ -1,12 +1,11 @@
-//constructor for letters in hangman game
-
-function HangmanLetter(letter, guessedCorrectly){
+//letter Constructor
+function HangmanLetter(letter, correctGuess){
 	this.letter = letter;
-	this.guessedCorrectly = guessedCorrectly;
+	this.correctGuess = correctGuess;
 	this.display = function(){
-		if(this.guessedCorrectly){
+		if(this.correctGuess){
 			return this.letter
-		}else{
+		} else {
 			return '_'
 		}
 	}
